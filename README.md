@@ -8,3 +8,5 @@ Tasks completed
 - Cleaned Data (removed nulls,checked column types)
 - Performed Data Exploration
 - Performed aggregrations to create dataframes for investors
+
+Code for project 1: amazonsalesreport.py
