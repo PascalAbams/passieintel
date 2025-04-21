@@ -32,7 +32,7 @@ This project analyzes a large Amazon sales dataset (128,975 records) to extract 
 * Most sales volume comes from "Shipped" items fulfilled by Amazon (₹50,331,934)
 
 #### Files:
-* `amazonsalesreport.py` - Main analysis script
+* `Amazon Project.ipynb` - Main analysis script
 * Generated Excel reports:
   * `average_sales_by_category_and_status.xlsx`
   * `total_sales_by_ship_and_fulfil.xlsx`
