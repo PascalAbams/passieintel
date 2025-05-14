@@ -37,9 +37,50 @@ This project analyzes a large Amazon sales dataset (128,975 records) to extract 
   * `average_sales_by_category_and_status.xlsx`
   * `total_sales_by_ship_and_fulfil.xlsx`
 
-
-
 ## Technologies Used
 * Pandas for data manipulation
 * NumPy for numerical operations
 * Excel integration for data import/export
+
+### Project 2: Analyzing Olist Ecommerce Orders Data
+
+This project explores customer payment behavior using Olist’s ecommerce datasets from Brazil, focusing on how customers pay and whether credit card usage is disproportionately high.
+
+#### Tasks Completed
+* **Data Cleaning**
+
+* Merged orders.xlsx, order_payment.xlsx, and customers.xlsx
+* Handled missing values and dropped duplicates
+* Filtered data by payment type and state for targeted insights
+
+* **Data Exploration & Aggregation**
+* Created time-based features (year, month, week) for trend analysis
+* Analyzed total monthly payment values
+* Grouped and aggregated data by payment type and time
+
+* **Data Visualization**
+* Line chart showing total payment value by month
+* Stacked bar chart showing payment method breakdown over time
+* Scatter plot showing relationship between payment value and number of installments
+* Box plot comparing payment value ranges across methods
+
+#### Key Insights
+* Credit cards are the most dominant payment method across months.
+* Users paying with credit cards tend to have higher transaction values and more installments.
+* A few customers spread payments over 60+ installments, indicating possible credit overuse.
+* Payment value peaked around late 2017, followed by a dip in mid-2018.
+
+#### Files
+* Olist Analytics.ipynb – Main notebook for data cleaning, merging, and visualization
+* my_plot.png – Final multi-plot image showing all four key charts
+* orders.xlsx, order_payment.xlsx, customers.xlsx – Raw datasets used
+
+#### Technologies Used
+* Pandas for data manipulation
+* Seaborn/Matplotlib for visualization
+* Jupyter Notebook for interactive analysis
+
+
+
+
+
