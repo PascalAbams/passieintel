@@ -47,21 +47,21 @@ This project analyzes a large Amazon sales dataset (128,975 records) to extract 
 This project explores customer payment behavior using Olist’s ecommerce datasets from Brazil, focusing on how customers pay and whether credit card usage is disproportionately high.
 
 #### Tasks Completed
-* **Data Cleaning**
- * Merged orders.xlsx, order_payment.xlsx, and customers.xlsx
- * Handled missing values and dropped duplicates
- * Filtered data by payment type and state for targeted insights
+ * **Data Cleaning**
+  * Merged orders.xlsx, order_payment.xlsx, and customers.xlsx
+  * Handled missing values and dropped duplicates
+  * Filtered data by payment type and state for targeted insights
 
-* **Data Exploration & Aggregation**
- * Created time-based features (year, month, week) for trend analysis
- * Analyzed total monthly payment values
- * Grouped and aggregated data by payment type and time
+ * **Data Exploration & Aggregation**
+  * Created time-based features (year, month, week) for trend analysis
+  * Analyzed total monthly payment values
+  * Grouped and aggregated data by payment type and time
 
-* **Data Visualization**
- * Line chart showing total payment value by month
- * Stacked bar chart showing payment method breakdown over time
- * Scatter plot showing relationship between payment value and number of installments
- * Box plot comparing payment value ranges across methods
+ * **Data Visualization**
+  * Line chart showing total payment value by month
+  * Stacked bar chart showing payment method breakdown over time
+  * Scatter plot showing relationship between payment value and number of installments
+  * Box plot comparing payment value ranges across methods
 
 #### Key Insights
  * Credit cards are the most dominant payment method across months.
@@ -70,9 +70,9 @@ This project explores customer payment behavior using Olist’s ecommerce datase
  * Payment value peaked around late 2017, followed by a dip in mid-2018.
 
 #### Files
- * Olist Analytics.ipynb – Main notebook for data cleaning, merging, and visualization
+ * `Olist Analytics.ipynb` – Main notebook for data cleaning, merging, and visualization
  * my_plot.png – Final multi-plot image showing all four key charts
- * orders.xlsx, order_payment.xlsx, customers.xlsx – Raw datasets used
+ * `orders.xlsx`,  `order_payment.xlsx`, `customers.xlsx` – Raw datasets used
 
 #### Technologies Used
  * Pandas for data manipulation
