@@ -47,22 +47,22 @@ This project analyzes a large Amazon sales dataset (128,975 records) to extract 
 This project explores customer payment behavior using Olist’s ecommerce datasets from Brazil, focusing on how customers pay and whether credit card usage is disproportionately high.
 
 #### Tasks Completed
- * **Data Cleaning**
+* **Data Cleaning**
   * Merged orders.xlsx, order_payment.xlsx, and customers.xlsx
   * Handled missing values and dropped duplicates
   * Filtered data by payment type and state for targeted insights
 
- * **Data Exploration & Aggregation**
+* **Data Exploration & Aggregration**
   * Created time-based features (year, month, week) for trend analysis
   * Analyzed total monthly payment values
   * Grouped and aggregated data by payment type and time
 
  * **Data Visualization**
-  * Line chart showing total payment value by month
-  * Stacked bar chart showing payment method breakdown over time
-  * Scatter plot showing relationship between payment value and number of installments
-  * Box plot comparing payment value ranges across methods
-
+   * Line chart showing total payment value by month
+   * Stacked bar chart showing payment method breakdown over time
+   * Scatter plot showing relationship between payment value and number of installments
+   * Box plot comparing payment value ranges across methods
+   
 #### Key Insights
  * Credit cards are the most dominant payment method across months.
  * Users paying with credit cards tend to have higher transaction values and more installments.
